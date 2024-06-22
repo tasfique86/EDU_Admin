@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".ResultPublish">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Department Name"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="30sp"
+            android:layout_gravity="center_horizontal"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Deparment (CSE)"
+            android:textColor="@color/light_gray"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:id="@+id/Edittext_admin_departmentName_result"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Roll No"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="30sp"
+            android:layout_gravity="center_horizontal"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Roll No"
+            android:textColor="@color/light_gray"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:id="@+id/Edittext_admin_Rollno__result"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1st Semeter :"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:layout_marginLeft="20dp"
+                />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Point"
+                android:textColor="@color/black"
+                android:layout_marginLeft="20dp"
+                android:textSize="25dp"
+                android:id="@+id/Edittext_admin_semester1_result"
+                />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2nd Semeter :"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:layout_marginLeft="20dp"
+                />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Point"
+                android:textColor="@color/black"
+                android:layout_marginLeft="20dp"
+                android:textSize="25dp"
+                android:id="@+id/Edittext_admin_semester2_result"
+                />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3nd Semeter :"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:layout_marginLeft="20dp"
+                />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Point"
+                android:textColor="@color/black"
+                android:layout_marginLeft="20dp"
+                android:textSize="25dp"
+                android:id="@+id/Edittext_admin_semester3_result"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4th Semeter :"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:layout_marginLeft="20dp"
+                />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Point"
+                android:textColor="@color/black"
+                android:layout_marginLeft="20dp"
+                android:textSize="25dp"
+                android:id="@+id/Edittext_admin_semester4_result"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5th Semeter :"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:layout_marginLeft="20dp"
+                />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Point"
+                android:textColor="@color/black"
+                android:layout_marginLeft="20dp"
+                android:textSize="25dp"
+                android:id="@+id/Edittext_admin_semester5_result"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6th Semeter :"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:layout_marginLeft="20dp"
+                />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Point"
+                android:textColor="@color/black"
+                android:layout_marginLeft="20dp"
+                android:textSize="25dp"
+                android:id="@+id/Edittext_admin_semester6_result"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7th Semeter :"
+                android:textSize="25sp"
+                android:layout_marginLeft="20dp"
+                />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Point"
+                android:layout_marginLeft="20dp"
+                android:textSize="25dp"
+                android:id="@+id/Edittext_admin_semester7_result"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="8th Semeter :"
+                android:textSize="25sp" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Point"
+                android:layout_marginLeft="20dp"
+                android:textSize="25dp"
+                android:id="@+id/Edittext_admin_semester8_result"
+                />
+        </LinearLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:text="Submit"
+            android:id="@+id/Edittext_admin_submit_SemesterFee"
+            android:layout_margin="20dp"
+            />
+
+
+
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "432023450146",
+    "firebase_url": "https://edu-pay-584f6-default-rtdb.firebaseio.com",
+    "project_id": "edu-pay-584f6",
+    "storage_bucket": "edu-pay-584f6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:432023450146:android:2e3420f6342af966e0507b",
+        "android_client_info": {
+          "package_name": "com.example.edu_admin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzxs7eGgiluKuguDT_qGMgEMqKdNCQDaU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:432023450146:android:feb51a40cf1c7669e0507b",
+        "android_client_info": {
+          "package_name": "com.example.edupay"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzxs7eGgiluKuguDT_qGMgEMqKdNCQDaU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

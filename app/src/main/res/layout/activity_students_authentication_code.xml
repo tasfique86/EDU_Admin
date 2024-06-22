@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".StudentsAuthenticationCode">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Department"
+
+        android:textColorHint="@color/light_gray"
+        android:textSize="30dp"
+        android:padding="10dp"
+        android:background="@drawable/edit_text_rounded_corner"
+        android:elevation="5dp"
+        android:textColor="@color/black"
+        android:layout_margin="10dp"
+        android:id="@+id/departmentEdittext"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Registration No"
+        android:textSize="30dp"
+        android:textColorHint="@color/light_gray"
+        android:padding="10dp"
+        android:id="@+id/registerNOEdittext"
+        android:background="@drawable/edit_text_rounded_corner"
+        android:elevation="5dp"
+        android:textColor="@color/black"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+        <com.hbb20.CountryCodePicker
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:ccp_showFlag="false"
+            app:ccp_showNameCode="false"
+            android:id="@+id/registar_countrycode"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:hint="Mobile Registar"
+            android:textColorHint="@color/light_gray"
+            android:inputType="phone"
+            android:textColor="@color/black"
+            android:background="@drawable/edit_text_rounded_corner"
+            android:elevation="5dp"
+            android:layout_margin="10dp"
+            android:id="@+id/accountNOEdittext"
+            />
+
+
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/AddaccountButtom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textSize="20dp"
+        android:layout_margin="10dp"/>
+    <Button
+        android:id="@+id/Addaccountdis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Display"
+        android:textSize="20dp"
+        android:layout_margin="10dp"/>
+
+
+</LinearLayout>
